@@ -1,0 +1,27 @@
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+<h1>Steganography</h1>
+
+<p>
+  <canvas id="can">
+
+  </canvas>
+  <canvas id="cancan">
+
+  </canvas>
+</p>
+<p class="input">
+  <h2>Load Image to Be Hidden</h2>
+  <input type="file" multiple="false" accept="image/*" id="fhidden" onchange="uploadHidden()">
+</p>
+<p class="input">
+  <h2>Load Image</h2>
+  <input type="file" multiple="false" accept="image/*" id="finput" onchange="uploadImage()">
+</p>
+<p class="input">
+  <h2>Hide Image</h2>
+  <input type="button" value="Hide" onclick="makeGray()">
+</p>
+<p>
+  <input type="button" value="Reset Image" onclick="resetImage()">
+</p>
